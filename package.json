@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Removed coffeescript from your project, preserving comments.",
   "main": "index.js",
+  "bin": {
+    "uncoffee": "./bin/uncoffee"
+  },
   "dependencies": {
     "coffee-script": "^1.11.1",
     "minimist": "^1.2.0"

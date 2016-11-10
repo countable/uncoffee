@@ -2,9 +2,10 @@
 A little utility for porting projects out of coffeescript to plain javascript. It's currently simply a coffee compiler wrapper which preserves more of the comments in coffeescript source. It's written in coffeescript so it can be tested on itself.
 
 ## usage
-Run the following to generate a js file with comments preserved.
+Run the following to generate a filename.js file with comments preserved.
 ```
-coffee index.coffee <coffeescript file to convert>
+npm install -g uncoffee
+uncoffee filename.coffee
 ```
 
 ## todo?
