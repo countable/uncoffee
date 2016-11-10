@@ -1,0 +1,30 @@
+{
+  "name": "uncoffee",
+  "version": "1.0.0",
+  "description": "Removed coffeescript from your project, preserving comments.",
+  "main": "index.js",
+  "dependencies": {
+    "coffee-script": "^1.11.1",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/countable/uncoffee.git"
+  },
+  "keywords": [
+    "coffeescript",
+    "uncoffee",
+    "remove",
+    "port"
+  ],
+  "author": "Clark Van Oyen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/countable/uncoffee/issues"
+  },
+  "homepage": "https://github.com/countable/uncoffee#readme"
+}
