@@ -1,5 +1,5 @@
 # uncoffee
-A little utility for porting projects out of coffeescript to plain javascript. It's currently simply a coffee compiler wrapper/preprocessor which preserves more of the comments in coffeescript source. It's written in coffeescript so it can be tested on itself.
+A little utility for porting projects out of coffeescript to plain javascript. It's currently simply a coffee compiler wrapper/preprocessor which preserves more of the comments from coffeescript source. It's written in coffeescript so it can be tested on itself.
 
 The default coffee-script compiler only converts block comments to javascript comments, so single line comments (not wrapped by ###) are discarded. This wrapper simply pre-compiles your coffeescript so all comments are block comments.
 
