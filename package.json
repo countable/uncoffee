@@ -1,10 +1,10 @@
 {
   "name": "uncoffee",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Removed coffeescript from your project, preserving comments.",
-  "main": "index.js",
+  "main": "./index.js",
   "bin": {
-    "uncoffee": "./bin/uncoffee"
+    "uncoffee": "./uncoffee"
   },
   "dependencies": {
     "coffee-script": "^1.11.1",
