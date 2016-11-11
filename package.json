@@ -1,6 +1,6 @@
 {
   "name": "uncoffee",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Removed coffeescript from your project, preserving comments.",
   "main": "./index.js",
   "bin": {

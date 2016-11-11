@@ -56,6 +56,7 @@ module.exports = (argv0) -> # an inline comment.
       if line.indexOf("##"+"#") > -1
         if in_multiline_comment # Final one.
           out_lines.push line
+          continue
         in_multiline_comment = not in_multiline_comment
 
       if in_multiline_comment
@@ -65,7 +66,7 @@ module.exports = (argv0) -> # an inline comment.
       if /^\s*#/.test line
         if line.indexOf("##"+"#") is -1
           unless comment_block.length
-            comment_block.push '###'
+            comment_block.push('#'+'##')
           comment_block.push line.trim()
       else
         dent_match = line.match /^(\s*)\S/
@@ -87,7 +88,6 @@ module.exports = (argv0) -> # an inline comment.
         # else, and catch blocks, use previous indent level.
         if comment_block.length
           comment_block.push '###'
-          console.log(comment_block)
           while comment_block.length
             out_lines.push str_mult(' ', cdent) + comment_block.shift()
 
